@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "logo": "/img/logo.png",
+    "name": "Ecommerce",
+    "description": "Teste de Ecommerce",
+    "bussinessHours": "Segunda a Sexta das 8h às 18h",
+    "phone": "(11) 99999-9999",
+    "email": "example@email.com",
+    "address": "Rua dos Bobos, 0",
+    "currency": "R$"
+  },
+  "banner": [
+    {
+      "image": "https://lojavirus.fbitsstatic.net/img/b/07c0a88b-cad9-4761-b317-2de1b16e5bca.jpg",
+      "title": "Converse All Star",
+      "active": true
+    },
+    {
+      "image": "https://www.marinhocalcados.com.br/arquivos/FABRICANTES/8/banner20210430100415.jpg",
+      "title": "Converse Chuck Taylor",
+      "active": true
+    }
+  ],
+  "featuredBanner": {
+    "image": "https://secure-static.vans.com.br/content/vns/categories/img/cdn/female/banners/desktop/sailormoonlizzie-waffle.jpg",
+    "title": "Converse All Star",
+    "route": "/catalog/1",
+    "active": true
+  },
+  "featuredMessage": "🎄 PROMOÇÃO DE NATAL - 10% OFF PARA TODOS OS PRODUTOS",
+  "catalogs": [
+    {
+      "id": 1,
+      "name": "Masculino",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Feminino",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Destaque",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Black Friday",
+      "active": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tênis",
+      "catalogId": 1,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Vestidos",
+      "catalogId": 2,
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Camisas",
+      "catalogId": 3,
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Calças",
+      "catalogId": 3,
+      "active": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Converse Chuck Taylor All Star Low Top",
+      "description": "The classic Converse Chuck Taylor All Star low top sneakers are a wardrobe staple for any style-conscious individual. With a durable canvas upper, cushioned insole, and rubber sole, these shoes are comfortable and long-lasting.",
+      "price": 60.00,
+      "image": "https://converse.com.br/media/catalog/product/c/t/ct00010001_a_107x1_7.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=897&width=960&canvas=960:897",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Converse Chuck Taylor All Star High Top",
+      "description": "The Converse Chuck Taylor All Star high top sneakers are a classic, iconic style that has stood the test of time. With a durable canvas upper, cushioned insole, and rubber sole, these shoes are both fashionable and comfortable.",
+      "price": 65.00,
+      "image": "https://converse.com.br/media/catalog/product/c/t/ct00040003_a_107x1_6.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=897&width=960&canvas=960:897",
+      "active": true
+    }
+  ]
+}
